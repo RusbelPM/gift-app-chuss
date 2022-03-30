@@ -1,0 +1,67 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+  padding: 70px;
+  background-image: url('https://marketplace.canva.com/EAEK4dC2olw/1/0/1600w/canva-arco%C3%ADris-gradiente-rosa-y-naranja-fondo-virtual-para-zoom-c3PYha1JI9M.jpg');
+
+}
+input{
+  color: rgb(66, 73, 66);
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: rgb(240, 233, 224) ;
+  
+}
+.card-gid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+.stylp{
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 10px;
+  margin-right: 10px;
+
+
+}
+.stylp{
+  padding: 5px;
+  text-align: center;
+}
+.stylp img{
+  max-height: 170px;
+}
+.lig{
+  text-align: center;
+  text-decoration-color: firebrick;
+}
+.duo{
+  
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 12ch;
+
+  animation: typing 2s steps(12),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0;}
+}
+@keyframes blink {
+  50% { border-color: transparent;}
+  
+}
+.tour{
+  text-align: center;
+}
